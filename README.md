@@ -1,5 +1,7 @@
-GameNumber [![Build Status](https://secure.travis-ci.org/EPashkin/gamenumber.png?branch=master)](http://travis-ci.org/EPashkin/gamenumber)
+GameNumber-freegame [![Build Status](https://secure.travis-ci.org/EPashkin/gamenumber-freegame.png?branch=master)](http://travis-ci.org/EPashkin/gamenumber-freegame)
 ====
+GUI for GameNumber on graphics engine free-game
+
 GameNumber is simple game with AI players
 
 Controls
