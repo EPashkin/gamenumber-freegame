@@ -1,3 +1,6 @@
 [submodule "deps/gamenumber"]
 	path = deps/gamenumber
 	url = https://github.com/EPashkin/gamenumber.git
+[submodule "deps/free-game"]
+	path = deps/free-game
+	url = https://github.com/fumieval/free-game
