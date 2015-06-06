@@ -6,4 +6,4 @@
 	url = https://github.com/fumieval/free-game
 [submodule "deps/colors"]
 	path = deps/colors
-	url = git@github.com:EPashkin/colors.git
+	url = https://github.com/EPashkin/colors.git
