@@ -51,3 +51,13 @@ Shield protects players cell from attacks for cost of free points.
 Shield must be charged up to 128 and then activated.
 
 Activated shield can be disabled to accumulate free points and then turned back on without spending free points.
+
+Building GameNumber-freegame
+----
+'''
+git clone https://github.com/EPashkin/gamenumber-freegame.git
+git submodule update --init --recursive
+./init-sandbox.sh
+cabal install
+'''
+After build you can 'cabal run' or 'gamenumber-freegame' to launch game
