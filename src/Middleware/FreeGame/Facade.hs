@@ -1,5 +1,7 @@
+{-# LANGUAGE UndecidableInstances, FlexibleInstances #-}
 module Middleware.FreeGame.Facade
     ( module G
+    , Drawable()
     , emptyCellColor
     , panelBkColor
     , playerColor
@@ -56,3 +58,8 @@ rectangleSolid w h = polygon $ rectPoints w h
 
 rectPoints :: Double -> Double -> [Vec2]
 rectPoints w h = [ V2 0 0, V2 w 0, V2 w h, V2 0 h]
+
+--TODO: Remove with UndecidableInstances, FlexibleInstances when free-game 1.1.81 shipped
+class (Applicative f, Monad f, Picture2D f, Local f) => Drawable f where { }
+
+instance (Applicative f, Monad f, Picture2D f, Local f) => Drawable f where { }
