@@ -1,0 +1,3 @@
+[submodule "deps/gamenumber"]
+	path = deps/gamenumber
+	url = https://github.com/EPashkin/gamenumber.git

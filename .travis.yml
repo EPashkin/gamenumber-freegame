@@ -2,5 +2,9 @@ language: haskell
 
 ghc: 7.8
 
+sudo: required
+
 before_install:
   - sudo apt-get install -qq libxxf86vm-dev
+  - cabal sandbox init
+  - ./init-sandbox.sh
