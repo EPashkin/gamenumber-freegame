@@ -18,11 +18,14 @@ executable gamenumber-freegame
   main-is:             Main.hs
   build-depends:       base >=4.6,
                        gamenumber,
+-- temp add2 for travis BJ fix
+                       transformers >= 0.4.3.0,
+                       transformers-compat >= 0.4.0.4,
                        mtl,
                        cond,
                        lens,
                        free,
-                       free-game >= 1.1.80
+                       free-game >= 1.1.81
   hs-source-dirs:      src
   default-language:    Haskell2010
   ghc-options:         -threaded
